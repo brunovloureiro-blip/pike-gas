@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pikê Gás</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #0d0f14;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 32px;
+      letter-spacing: 4px;
+      color: #f5a623;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #888;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      max-width: 340px;
+      padding: 18px 24px;
+      margin-bottom: 12px;
+      background: #1a1d24;
+      border: 1px solid #2a2d35;
+      border-radius: 14px;
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: border-color .2s, background .2s;
+    }
+    .btn:hover {
+      border-color: #f5a623;
+      background: #1f2029;
+    }
+    .btn .icon { font-size: 28px; }
+    .btn .label { font-size: 16px; font-weight: 600; }
+    .btn .sub { font-size: 12px; color: #888; margin-top: 2px; }
+  </style>
+</head>
+<body>
+  <h1>⛽ PIKÊ GÁS</h1>
+  <p>Selecione a frota</p>
+
+  <a href="pike-gas-motorista.html" class="btn">
+    <span class="icon">🚗</span>
+    <div>
+      <div class="label">Motoristas</div>
+      <div class="sub">Controle de abastecimento</div>
+    </div>
+  </a>
+
+  <a href="pike-gas-caminhao.html" class="btn">
+    <span class="icon">🚛</span>
+    <div>
+      <div class="label">Caminhões</div>
+      <div class="sub">Controle de abastecimento</div>
+    </div>
+  </a>
+
+  <a href="pike-gas-itapetininga.html" class="btn">
+    <span class="icon">📍</span>
+    <div>
+      <div class="label">Itapetininga</div>
+      <div class="sub">Controle de abastecimento</div>
+    </div>
+  </a>
+</body>
+</html>
